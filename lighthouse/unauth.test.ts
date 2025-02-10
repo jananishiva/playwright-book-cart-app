@@ -25,10 +25,6 @@ const configs = {
 test.use({ headless: true })
 
 urls.forEach(url => {
-
-
-
-
     test("Un-Auth lighthouse: " + url, async ({ playwright }) => {
         const browser = await playwright.chromium.launch({
             args: ['--remote-debugging-port=9222'],
