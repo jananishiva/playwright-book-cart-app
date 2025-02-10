@@ -8,10 +8,6 @@ import * as data from "../utils/testdata/loginUser.json";
 
 test.describe("Login scenario", async () => {
 
-    // test.use({
-    //     storageState: ""
-    // })
-
     test("Valid login & logout", async ({ playwright }) => {
         const browser = await playwright.chromium.launch({
             args: ['--remote-debugging-port=9222'],

@@ -14,7 +14,7 @@
   "dependencies": {
     "crypto-js": "^4.1.1",
     "lighthouse": "^9.6.8",
-    "playwright": "^1.28.1",
+    "playwright": "^1.50.1",
     "playwright-lighthouse": "^2.2.2"
   },
   "devDependencies": {
